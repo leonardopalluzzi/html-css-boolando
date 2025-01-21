@@ -39,8 +39,8 @@ h3 {
 #site_header {
     padding: 1rem 0;
     background-color: var(--zl-main);
-    position: fixed;
-    width: 100%;
+    position: sticky;
+    top: 0;
     z-index: 10;
 }
 
@@ -73,7 +73,6 @@ h3 {
     padding: 2rem 0;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 6rem;
 }
 
 .card {
