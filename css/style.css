@@ -28,6 +28,14 @@ h3 {
     text-transform: uppercase;
 }
 
+.product-link{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: var(--zl-main);
+    }
+}
+
 /* utiluty  */
 .debug {
     * {
@@ -60,7 +68,7 @@ h3 {
     a {
         text-decoration: none;
         color: var(--zl-lighter);
-
+        margin-right: 1rem;
         &:hover {
             color: var(--zl-label);
             font-size: 1.2rem;
@@ -88,10 +96,6 @@ h3 {
 .card-img {
     position: relative;
     height: 90%;
-    background-image: url(../img/1.webp);
-    background-size: cover;
-    transition-duration: 0.5s;
-
     i {
         position: absolute;
         right: 0;
@@ -99,31 +103,25 @@ h3 {
         font-size: 1.5rem;
         background-color: var(--zl-lighter);
         padding: 6px;
-
         &:hover {
             color: var(--zl-discount);
             font-size: 1.8rem;
         }
     }
 
-    .discount {
+    .labels{
         position: absolute;
         bottom: 2rem;
+    }
+
+    .discount {
         background-color: var(--zl-discount);
         padding: 0 0.3rem;
     }
 
-    .label {
-        position: absolute;
-        bottom: 2rem;
-        left: 3.2rem;
+    .green-label {
         background-color: var(--zl-label);
         padding: 0 0.3rem;
-    }
-
-    &:hover {
-        background-image: url(../img/1b.webp);
-        background-size: cover;
     }
 }
 
@@ -173,5 +171,67 @@ h3 {
 .ft-icons{
     a{
         font-size: 1.2rem;
+    }
+}
+
+
+/* card content  */
+#card-1{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    transition-duration: 0.5s;
+    &:hover {
+        background-image: url(../img/1b.webp);
+        background-size: cover;
+    }
+}
+
+#card-2{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    transition-duration: 0.5s;
+    &:hover {
+        background-image: url(../img/2b.webp);
+        background-size: cover;
+    }
+}
+
+#card-3{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    transition-duration: 0.5s;
+    &:hover {
+        background-image: url(../img/3b.webp);
+        background-size: cover;
+    }
+}
+
+#card-4{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    transition-duration: 0.5s;
+    &:hover {
+        background-image: url(../img/4b.webp);
+        background-size: cover;
+    }
+}
+
+#card-5{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+    transition-duration: 0.5s;
+    &:hover {
+        background-image: url(../img/5b.webp);
+        background-size: cover;
+    }
+}
+
+#card-6{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    transition-duration: 0.5s;
+    &:hover {
+        background-image: url(../img/6b.webp);
+        background-size: cover;
     }
 }
