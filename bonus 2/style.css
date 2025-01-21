@@ -9,6 +9,7 @@
 .product-container{
     justify-content: start;
     padding: 2rem 0;
+    position: relative;
 }
 
 .product-details{
@@ -59,4 +60,16 @@
 
 .description{
     margin-bottom: 3rem;
+}
+
+.home{
+    position: absolute;
+    right: 0;
+    font-size: 2rem;
+    color: var(--zl-footer);
+    transition-duration: 0.5s;
+    &:hover{
+        color: var(--zl-main);
+        font-size: 3rem;
+    }
 }
